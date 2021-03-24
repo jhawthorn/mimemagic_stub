@@ -1,28 +1,17 @@
-# Mimemagic
+# MimeMagic stub
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mimemagic`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem stubs the MimeMagic interface.
 
-TODO: Delete this and the text above, and describe your gem
+This contains no DB and no logic, but it should be able to replace the real
+mimemagic gem and allow an application to boot without it.
 
-## Installation
+## Installation/Usage
 
-Add this line to your application's Gemfile:
+Simply replace the mimemagic gem in your Gemfile with this "version"
 
 ```ruby
-gem 'mimemagic'
+gem 'mimemagic', git: "https://github.com/jhawthorn/mimemagic_stub"
 ```
-
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install mimemagic
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
