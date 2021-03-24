@@ -5,7 +5,7 @@ This gem stubs the MimeMagic interface.
 This contains no DB and no logic, but it should be able to replace the real
 mimemagic gem and allow an application to boot without it.
 
-This should not be used in application which need the mimemagic functionality (i.e. if you are using activestorage)
+This should not be used in applications which need the mimemagic functionality (i.e. if you are using activestorage)
 
 ## Installation/Usage
 
